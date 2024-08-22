@@ -23,10 +23,12 @@ Devido a essa demanda, oferecemos um serviço que conecta Locatários com imóve
    - Monitoramento em tempo real do uso da sala e desativação automática do acesso após o término do período.
    - Retenção de um documento do profissional e do visitante durante a permanência.
 
-**Pagamentos, Faturamento e Políticas de Cancelamento**:
+**Pagamentos e Faturamento**:
    - Processamento de pagamentos online para reservas de salas.
    - Emissão de faturas digitais e gestão de políticas de cancelamento.
-   - Gestão de reembolsos ou créditos em caso de cancelamento dentro do prazo permitido.
+**Política de Cancelamento**:
+ - Gestão de reembolsos ou créditos em caso de cancelamento dentro do prazo permitido.
+- Reembolso varia de acordo com cada locatário. 
 
 **Manutenção, Suporte e Limpeza**:
    - Solicitação de serviços de manutenção ou limpeza após o uso da sala (equipes do locatário ou mediante a pagamento de taxas com equipe do app).
