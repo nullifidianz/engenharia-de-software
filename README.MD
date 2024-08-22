@@ -26,6 +26,7 @@ Devido a essa demanda, oferecemos um serviço que conecta Locatários com imóve
 **Pagamentos e Faturamento**:
    - Processamento de pagamentos online para reservas de salas.
    - Emissão de faturas digitais e gestão de políticas de cancelamento.
+
 **Política de Cancelamento**:
  - Gestão de reembolsos ou créditos em caso de cancelamento dentro do prazo permitido.
 - Reembolso varia de acordo com cada locatário. 
