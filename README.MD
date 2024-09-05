@@ -40,3 +40,5 @@ Devido a essa demanda, oferecemos um serviço que conecta Locatários com imóve
    - Sistema de avaliação das salas e da experiência geral, com feedback focado em segurança, limpeza e conforto a cada vez que for locado o espaço.
    - Sistema de avaliação a longo prazo com 30, 60 e 90 dias.
    - Utilização do feedback para melhorar continuamente os serviços oferecidos.
+
+**Imagem do Diagrama:**
