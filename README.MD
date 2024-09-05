@@ -42,3 +42,4 @@ Devido a essa demanda, oferecemos um serviço que conecta Locatários com imóve
    - Utilização do feedback para melhorar continuamente os serviços oferecidos.
 
 **Imagem do Diagrama:**
+![Diagrama ](https://github.com/nullifidianz/engenharia-de-software/blob/main/diagrama)
