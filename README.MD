@@ -1,5 +1,5 @@
 
-# Plataforma de Aluguel de Salas
+# WorkNexus - Plataforma de Aluguel de Salas
 A flexibilidade no uso de espaços de trabalho é uma demanda crescente, especialmente para profissionais autônomos ou pequenos negócios. Com isso, a utilização de tecnologia para mediar e controlar o acesso às salas individuais de forma fácil e segura durante o período contratado é essencial para oferecer conveniência e segurança aos usuários.
 Devido a essa demanda, oferecemos um serviço que conecta Locatários com imóveis perfeitos para a demanda de cada profissional.
 
