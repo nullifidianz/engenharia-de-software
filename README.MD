@@ -43,4 +43,4 @@ Devido a essa demanda, oferecemos um serviço que conecta Locatários com imóve
 
 **Imagem do Diagrama:**
 
-![Diagrama](https://github.com/nullifidianz/engenharia-de-software/blob/main/WorkNexus.png?sanitize=true)
+![Diagrama](https://github.com/nullifidianz/engenharia-de-software/blob/main/WorkNexus.png)
