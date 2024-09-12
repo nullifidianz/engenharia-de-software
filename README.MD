@@ -44,3 +44,9 @@ Devido a essa demanda, oferecemos um serviço que conecta Locatários com imóve
 **Imagem do Diagrama:**
 
 ![Diagrama](https://github.com/nullifidianz/engenharia-de-software/blob/main/WorkNexus.jpg)
+
+**Detalhamento das Tarefas do Cenário de Negócio**
+
+![print 1](https://github.com/nullifidianz/engenharia-de-software/blob/main/WorkNexus.jpg)
+
+**Stakeholders**
