@@ -1,5 +1,5 @@
-# WorkNexus - Plataforma de Aluguel de Salas
 
+# WorkNexus - Plataforma de Aluguel de Salas
 A flexibilidade no uso de espaços de trabalho é uma demanda crescente, especialmente para profissionais autônomos ou pequenos negócios. A utilização de tecnologia para mediar e controlar o acesso às salas individuais de forma fácil e segura durante o período contratado é essencial para oferecer conveniência e segurança aos usuários. Com isso, oferecemos um serviço que conecta locatários com imóveis perfeitos para a demanda de cada profissional.
 
 ## Identificação dos Processos
@@ -40,7 +40,7 @@ A flexibilidade no uso de espaços de trabalho é uma demanda crescente, especia
 - Sistema de avaliação a longo prazo com 30, 60 e 90 dias.
 - Utilização do feedback para melhorar continuamente os serviços oferecidos.
 
-![Diagrama](https://github.com/nullifidianz/engenharia-de-software/blob/main/WorkNexus.jpg)
+![Diagrama](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Diagramas/WorkNexus.jpg
 
 ### Modelo de Desenvolvimento
 
@@ -169,10 +169,10 @@ Dessa forma, escolhemos essa metodologia para desenvolvermos nosso negócio pois
    - A utilização do feedback deve ser feita para melhorar continuamente o serviço.
 
 Protótipos das telas:
-![Login](https://github.com/nullifidianz/engenharia-de-software/blob/main/Tela1.jpg)
-![Cadastro](https://github.com/nullifidianz/engenharia-de-software/blob/main/Tela2.jpg)
-![Validação](https://github.com/nullifidianz/engenharia-de-software/blob/main/Tela3.jpg)
-![Dashboard](https://github.com/nullifidianz/engenharia-de-software/blob/main/Tela4.jpg)
-![Detalhe_Sala](https://github.com/nullifidianz/engenharia-de-software/blob/main/Tela5.jpg)
-![Agenda](https://github.com/nullifidianz/engenharia-de-software/blob/main/Tela6.jpg)
-![Acesso](https://github.com/nullifidianz/engenharia-de-software/blob/main/Tela7.jpg)
+![Login](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Login.png)
+![Cadastro](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Cadastro.png
+![Validação](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Validar_Documento_Pessoa.png)
+![Dashboard](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Dashboard.png)
+![Detalhe_Sala](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Detalhe_sala.png)
+![Agenda](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Agenda.png)
+![Acesso](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Acesso.png)
