@@ -40,7 +40,7 @@ A flexibilidade no uso de espaços de trabalho é uma demanda crescente, especia
 - Sistema de avaliação a longo prazo com 30, 60 e 90 dias.
 - Utilização do feedback para melhorar continuamente os serviços oferecidos.
 
-![Diagrama](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Diagramas/WorkNexus.jpg
+![Diagrama](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Diagramas/WorkNexus.jpg)
 
 ### Modelo de Desenvolvimento
 
@@ -170,9 +170,15 @@ Dessa forma, escolhemos essa metodologia para desenvolvermos nosso negócio pois
 
 Protótipos das telas:
 ![Login](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Login.png)
+
 ![Cadastro](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Cadastro.png
+
 ![Validação](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Validar_Documento_Pessoa.png)
+
 ![Dashboard](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Dashboard.png)
+
 ![Detalhe_Sala](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Detalhe_sala.png)
+
 ![Agenda](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Agenda.png)
+
 ![Acesso](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Acesso.png)
