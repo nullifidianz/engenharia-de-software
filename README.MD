@@ -169,9 +169,10 @@ Dessa forma, escolhemos essa metodologia para desenvolvermos nosso negócio pois
    - A utilização do feedback deve ser feita para melhorar continuamente o serviço.
 
 Protótipos das telas:
+
 ![Login](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Login.png)
 
-![Cadastro](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Cadastro.png
+![Cadastro](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Cadastro.png)
 
 ![Validação](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Validar_Documento_Pessoa.png)
 
