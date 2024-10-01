@@ -168,3 +168,11 @@ Dessa forma, escolhemos essa metodologia para desenvolvermos nosso negócio pois
    - Feedback deve ser coletado após cada reserva e a cada 30, 60 e 90 dias.
    - A utilização do feedback deve ser feita para melhorar continuamente o serviço.
 
+Protótipos das telas:
+![Login](https://github.com/nullifidianz/engenharia-de-software/blob/main/Tela1.jpg)
+![Cadastro](https://github.com/nullifidianz/engenharia-de-software/blob/main/Tela2.jpg)
+![Validação](https://github.com/nullifidianz/engenharia-de-software/blob/main/Tela3.jpg)
+![Dashboard](https://github.com/nullifidianz/engenharia-de-software/blob/main/Tela4.jpg)
+![Detalhe_Sala](https://github.com/nullifidianz/engenharia-de-software/blob/main/Tela5.jpg)
+![Agenda](https://github.com/nullifidianz/engenharia-de-software/blob/main/Tela6.jpg)
+![Acesso](https://github.com/nullifidianz/engenharia-de-software/blob/main/Tela7.jpg)
