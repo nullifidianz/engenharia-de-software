@@ -184,7 +184,7 @@ Protótipos das telas:
 
 ![Acesso](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Acesso.png)
 
-## **Requisitos de Software por meio de Histórias de Usuários: **
+## **Requisitos de Software por meio de Histórias de Usuários:**
 
 ### **Cadastro de Usuário**
 
@@ -224,7 +224,7 @@ Protótipos das telas:
 
 - **Como um usuário**, eu quero editar minhas informações pessoais e gerenciar minhas notificações, para que meus dados estejam sempre atualizados e eu receba informações relevantes.
 
-### **Portanto em resumo, o sistema deve conter: **
+### **Em resumo, o sistema deve conter:**
 1. **Segurança**:
     - O sistema deve implementar autenticação segura, criptografia de dados e garantir que as transações financeiras sejam realizadas em ambiente seguro.
 2. **Usabilidade**:
