@@ -269,3 +269,7 @@ Dessa forma, escolhemos essa metodologia para desenvolvermos nosso negócio pois
 
 **Suporte a Ajustes de Preços**:
     - O sistema deve permitir ajustes dinâmicos de preços, inclusive descontos promocionais e valores personalizados por horários.
+
+## Diagrama de Caso de Uso:
+
+![Casos de Uso](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Diagramas/Diagrama-Casos-de-Uso.png)
