@@ -251,15 +251,21 @@ Dessa forma, escolhemos essa metodologia para desenvolvermos nosso negócio pois
 ### **Em resumo, o sistema deve conter:**
 **Segurança**:
     - O sistema deve implementar autenticação segura, criptografia de dados e garantir que as transações financeiras sejam realizadas em ambiente seguro.
+
 **Usabilidade**:
     - O sistema deve oferecer uma interface de usuário simples e intuitiva, com navegação clara e acessível tanto em desktop quanto em dispositivos móveis.
+
 **Desempenho**:
     - O sistema deve garantir tempos de resposta rápidos em todas as operações críticas, como login, reserva e processamento de pagamentos.
+
 **Escalabilidade**:
     - O sistema deve ser escalável para suportar um grande número de usuários simultâneos, especialmente em possíveis horários de pico.
+
 **Controle de Disponibilidade**:
     - O sistema deve garantir que as salas não sejam reservadas para mais de um usuário ao mesmo tempo, e o locador possa ajustar a disponibilidade em tempo real.
+
 **Relatórios Financeiros**:
     - O sistema deve fornecer ao locador um painel financeiro que exibe ganhos por período, taxas aplicadas e histórico de transações.
+
 **Suporte a Ajustes de Preços**:
     - O sistema deve permitir ajustes dinâmicos de preços, inclusive descontos promocionais e valores personalizados por horários.
