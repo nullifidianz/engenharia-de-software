@@ -190,46 +190,76 @@ Dessa forma, escolhemos essa metodologia para desenvolvermos nosso negócio pois
 
 - **Como um usuário**, eu quero me cadastrar na plataforma fornecendo minhas informações pessoais e documentos profissionais, para que eu possa reservar salas e utilizar os serviços oferecidos.
 
-### 2. **Login e Acesso**
+### **Login e Acesso**
 
 - **Como um usuário registrado**, eu quero fazer login na plataforma utilizando meu e-mail e senha, para que eu possa acessar minhas reservas e gerenciar minhas informações.
 
 
-### 3. **Pesquisa e Reserva de Sala**
+### **Pesquisa e Reserva de Sala**
 
 - **Como um profissional**, eu quero pesquisar e reservar uma sala com base nas minhas necessidades (localização, recursos e disponibilidade), para que eu possa garantir um espaço adequado para o meu trabalho.
 
-### 4. **Pagamento**
+### **Pagamento**
 
 - **Como um usuário**, eu quero realizar o pagamento online da reserva de uma sala, para que minha reserva seja confirmada e eu possa utilizar o espaço.
 
-### 5. **Acesso à Sala**
+### **Acesso à Sala**
 
 - **Como um usuário com reserva confirmada**, eu quero acessar a sala no horário reservado utilizando QR code ou biometria, para que eu possa usar o espaço de forma segura e eficiente.
 
 
-### 6. **Gerenciamento de Reservas**
+### **Gerenciamento de Reservas**
 
 - **Como um usuário**, eu quero visualizar, alterar ou cancelar minhas reservas, para que eu possa gerenciar meu uso das salas de acordo com minhas necessidades.
 
-### 7. **Avaliação da Sala**
+### **Avaliação da Sala**
 
 - **Como um usuário**, eu quero avaliar a sala após usá-la, para que eu possa compartilhar minha experiência e ajudar outros usuários a fazerem escolhas informadas.
 
-### 8. **Solicitação de Limpeza ou Manutenção**
+### **Solicitação de Limpeza ou Manutenção**
 
 - **Como um usuário**, eu quero solicitar serviços de manutenção ou limpeza após usar a sala, para que o espaço seja mantido em boas condições para o próximo usuário.
 
-### 9. **Perfil do Usuário**
+### **Perfil do Usuário**
 
 - **Como um usuário**, eu quero editar minhas informações pessoais e gerenciar minhas notificações, para que meus dados estejam sempre atualizados e eu receba informações relevantes.
 
+### **Cadastro de Salas**
+
+- **Como um locador**, eu quero cadastrar minhas salas na plataforma com todos os detalhes e documentação necessária, **para que** eu possa disponibilizá-las para aluguel e gerenciar as reservas.
+
+### **Gerenciamento de Reservas e Disponibilidade**
+
+- **Como um locador**, eu quero definir a disponibilidade das minhas salas e visualizar as reservas feitas, **para que** eu possa gerenciar os horários em que elas estão livres ou ocupadas.
+
+### *Gerenciamento de Preços e Tarifas**
+
+- **Como um locador**, eu quero configurar o preço por hora ou dia para as salas, **para que** eu possa ajustar o valor de acordo com a demanda e os custos de manutenção.
+
+### **Pagamento e Faturamento**
+
+- **Como um locador**, eu quero receber o pagamento pelas reservas feitas nas minhas salas de forma segura e transparente, **para que** eu possa acompanhar meus ganhos e despesas.
+
+### **Avaliações e Feedback**
+
+- **Como um locador**, eu quero receber feedback dos profissionais que utilizaram minhas salas, **para que** eu possa melhorar a experiência e garantir um bom serviço.
+
+### **Manutenção e Limpeza das Salas**
+
+- **Como um locador**, eu quero gerenciar as solicitações de manutenção ou limpeza feitas pelos profissionais que utilizam minhas salas, **para que** eu possa garantir que elas estejam sempre em boas condições.
+
 ### **Em resumo, o sistema deve conter:**
-1. **Segurança**:
+**Segurança**:
     - O sistema deve implementar autenticação segura, criptografia de dados e garantir que as transações financeiras sejam realizadas em ambiente seguro.
-2. **Usabilidade**:
+**Usabilidade**:
     - O sistema deve oferecer uma interface de usuário simples e intuitiva, com navegação clara e acessível tanto em desktop quanto em dispositivos móveis.
-3. **Desempenho**:
+**Desempenho**:
     - O sistema deve garantir tempos de resposta rápidos em todas as operações críticas, como login, reserva e processamento de pagamentos.
-4. **Escalabilidade**:
+**Escalabilidade**:
     - O sistema deve ser escalável para suportar um grande número de usuários simultâneos, especialmente em possíveis horários de pico.
+**Controle de Disponibilidade**:
+    - O sistema deve garantir que as salas não sejam reservadas para mais de um usuário ao mesmo tempo, e o locador possa ajustar a disponibilidade em tempo real.
+**Relatórios Financeiros**:
+    - O sistema deve fornecer ao locador um painel financeiro que exibe ganhos por período, taxas aplicadas e histórico de transações.
+**Suporte a Ajustes de Preços**:
+    - O sistema deve permitir ajustes dinâmicos de preços, inclusive descontos promocionais e valores personalizados por horários.
