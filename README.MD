@@ -168,7 +168,7 @@ Dessa forma, escolhemos essa metodologia para desenvolvermos nosso negócio pois
    - Feedback deve ser coletado após cada reserva e a cada 30, 60 e 90 dias.
    - A utilização do feedback deve ser feita para melhorar continuamente o serviço.
 
-Protótipos das telas:
+## Protótipos das telas:
 
 ![Login](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Login.png)
 
