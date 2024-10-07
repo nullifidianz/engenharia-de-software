@@ -183,3 +183,53 @@ Protótipos das telas:
 ![Agenda](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Agenda.png)
 
 ![Acesso](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Acesso.png)
+
+## **Requisitos de Software por meio de Histórias de Usuários: **
+
+### **Cadastro de Usuário**
+
+- **Como um usuário**, eu quero me cadastrar na plataforma fornecendo minhas informações pessoais e documentos profissionais, para que eu possa reservar salas e utilizar os serviços oferecidos.
+
+### 2. **Login e Acesso**
+
+- **Como um usuário registrado**, eu quero fazer login na plataforma utilizando meu e-mail e senha, para que eu possa acessar minhas reservas e gerenciar minhas informações.
+
+
+### 3. **Pesquisa e Reserva de Sala**
+
+- **Como um profissional**, eu quero pesquisar e reservar uma sala com base nas minhas necessidades (localização, recursos e disponibilidade), para que eu possa garantir um espaço adequado para o meu trabalho.
+
+### 4. **Pagamento**
+
+- **Como um usuário**, eu quero realizar o pagamento online da reserva de uma sala, para que minha reserva seja confirmada e eu possa utilizar o espaço.
+
+### 5. **Acesso à Sala**
+
+- **Como um usuário com reserva confirmada**, eu quero acessar a sala no horário reservado utilizando QR code ou biometria, para que eu possa usar o espaço de forma segura e eficiente.
+
+
+### 6. **Gerenciamento de Reservas**
+
+- **Como um usuário**, eu quero visualizar, alterar ou cancelar minhas reservas, para que eu possa gerenciar meu uso das salas de acordo com minhas necessidades.
+
+### 7. **Avaliação da Sala**
+
+- **Como um usuário**, eu quero avaliar a sala após usá-la, para que eu possa compartilhar minha experiência e ajudar outros usuários a fazerem escolhas informadas.
+
+### 8. **Solicitação de Limpeza ou Manutenção**
+
+- **Como um usuário**, eu quero solicitar serviços de manutenção ou limpeza após usar a sala, para que o espaço seja mantido em boas condições para o próximo usuário.
+
+### 9. **Perfil do Usuário**
+
+- **Como um usuário**, eu quero editar minhas informações pessoais e gerenciar minhas notificações, para que meus dados estejam sempre atualizados e eu receba informações relevantes.
+
+### **Portanto em resumo, o sistema deve conter: **
+1. **Segurança**:
+    - O sistema deve implementar autenticação segura, criptografia de dados e garantir que as transações financeiras sejam realizadas em ambiente seguro.
+2. **Usabilidade**:
+    - O sistema deve oferecer uma interface de usuário simples e intuitiva, com navegação clara e acessível tanto em desktop quanto em dispositivos móveis.
+3. **Desempenho**:
+    - O sistema deve garantir tempos de resposta rápidos em todas as operações críticas, como login, reserva e processamento de pagamentos.
+4. **Escalabilidade**:
+    - O sistema deve ser escalável para suportar um grande número de usuários simultâneos, especialmente em possíveis horários de pico.
