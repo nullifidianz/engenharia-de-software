@@ -184,6 +184,12 @@ Dessa forma, escolhemos essa metodologia para desenvolvermos nosso negócio pois
 
 ![Acesso](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Acesso.png)
 
+![Checkout](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Checkout.png)
+
+![Checkout](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Checkout1.png)
+
+![Review](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Review.png)
+
 ## **Requisitos de Software por meio de Histórias de Usuários:**
 
 - **Como um usuário**, eu quero me cadastrar na plataforma fornecendo minhas informações pessoais e documentos profissionais, **para que** eu possa reservar salas e utilizar os serviços oferecidos.
