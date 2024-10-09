@@ -186,7 +186,7 @@ Dessa forma, escolhemos essa metodologia para desenvolvermos nosso negócio pois
 
 ![Checkout](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Checkout.png)
 
-![Checkout](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Checkout1.png)
+![Checkout](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Checkout-1.png)
 
 ![Review](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Review.png)
 
