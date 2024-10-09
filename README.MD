@@ -186,69 +186,137 @@ Dessa forma, escolhemos essa metodologia para desenvolvermos nosso negócio pois
 
 ## **Requisitos de Software por meio de Histórias de Usuários:**
 
-### **Cadastro de Usuário**
+- **Como um usuário**, eu quero me cadastrar na plataforma fornecendo minhas informações pessoais e documentos profissionais, **para que** eu possa reservar salas e utilizar os serviços oferecidos.
+    
+    **Requisitos**:
+    
+    - O sistema deve permitir que o usuário insira nome, e-mail, telefone, senha e profissão.
+    - O sistema deve permitir o upload de documentos (RG, CRM, OAB, etc.) para verificação.
+    - O sistema deve validar os documentos do usuário e notificá-lo sobre a aprovação ou rejeição.
+    - O usuário deve ser notificado via e-mail ou SMS para confirmar sua conta.
 
-- **Como um usuário**, eu quero me cadastrar na plataforma fornecendo minhas informações pessoais e documentos profissionais, para que eu possa reservar salas e utilizar os serviços oferecidos.
+- **Como um usuário registrado**, eu quero fazer login na plataforma utilizando meu e-mail e senha, **para que** eu possa acessar minhas reservas e gerenciar minhas informações.
+    
+    **Requisitos**:
+    
+    - O sistema deve autenticar o usuário com e-mail e senha.
+    - O sistema deve permitir a recuperação de senha caso o usuário esqueça.
+    - O sistema deve manter o usuário logado durante a sessão ativa e permitir logout seguro.
 
-### **Login e Acesso**
+- **Como um usuário logado**, eu quero pesquisar e reservar uma sala com base nas minhas necessidades (localização, recursos e disponibilidade), **para que** eu possa garantir um espaço adequado para o meu trabalho.
+    
+    **Requisitos**:
+    
+    - O sistema deve exibir uma lista de salas com filtros de pesquisa (localização, tipo de sala, preço, recursos, datas disponíveis).
+    - O sistema deve permitir que o usuário visualize detalhes da sala, como fotos, descrição, preço e avaliações.
+    - O sistema deve permitir que o usuário selecione a data e hora de reserva no calendário.
+    - O sistema deve calcular o preço total com base na duração da reserva e gerar um resumo antes da confirmação.
+    - O sistema deve processar o pagamento de forma segura e confirmar a reserva.
 
-- **Como um usuário registrado**, eu quero fazer login na plataforma utilizando meu e-mail e senha, para que eu possa acessar minhas reservas e gerenciar minhas informações.
+- **Como um usuário logado**, eu quero realizar o pagamento online da reserva de uma sala, **para que** minha reserva seja confirmada e eu possa utilizar o espaço.
+    
+    **Requisitos**:
+    
+    - O sistema deve oferecer opções de pagamento, como cartão de crédito, PayPal, Pix, etc.
+    - O sistema deve garantir transações seguras.
+    - O sistema deve enviar uma confirmação de pagamento ao usuário e gerar um recibo eletrônico.
+    - O sistema deve começar o processamento  do QR code ou da liberação da biometria assim que o pagamento for confirmado.
 
+- **Como um usuário logado e com reserva confirmada**, eu quero acessar a sala no horário reservado utilizando QR code ou biometria, **para que** eu possa usar o espaço de forma segura e eficiente.
+    
+    **Requisitos**:
+    
+    - O sistema deve liberar o uso de um QR code ou da configuração do acesso por biometria com antecedência ao período solicitado.
+    - O sistema deve permitir o acesso à sala apenas durante o horário reservado.
+    - O sistema deve monitorar e registrar os acessos às salas.
+    - O sistema deve desativar automaticamente o acesso após o término do período reservado.
 
-### **Pesquisa e Reserva de Sala**
+- **Como um usuário logado**, eu quero visualizar, alterar ou cancelar minhas reservas, **para que** eu possa gerenciar meu uso das salas de acordo com minhas necessidades.
+    
+    **Requisitos**:
+    
+    - O sistema deve exibir uma lista de reservas ativas e passadas.
+    - O sistema deve permitir que o usuário visualize detalhes da reserva, como QR code, horário e data.
+    - O sistema deve permitir o cancelamento de reservas e calcular o reembolso, de acordo com a política de cancelamento aplicável.
+    - O sistema deve notificar o usuário sobre alterações ou cancelamentos.
 
-- **Como um profissional**, eu quero pesquisar e reservar uma sala com base nas minhas necessidades (localização, recursos e disponibilidade), para que eu possa garantir um espaço adequado para o meu trabalho.
+- **Como um usuário**, eu quero avaliar a sala após usá-la, **para que** eu possa compartilhar minha experiência e ajudar outros usuários a fazerem escolhas informadas.
+    
+    **Requisitos**:
+    
+    - O sistema deve permitir que o usuário avalie a sala (de 1 a 5 estrelas) e deixe comentários.
+    - O sistema deve enviar uma solicitação de avaliação ao usuário após o uso da sala.
+    - O sistema deve armazenar as avaliações e exibi-las na página de cada sala.
 
-### **Pagamento**
+- **Como um usuário logado**, eu quero solicitar serviços de manutenção ou limpeza após usar a sala, **para que** o espaço seja mantido em boas condições para o próximo usuário.
+    
+    **Requisitos**:
+    
+    - O sistema deve permitir que o usuário registre uma solicitação de limpeza ou manutenção vinculada a uma reserva específica.
+    - O sistema deve notificar a equipe de suporte sobre a solicitação.
+    - O sistema deve permitir que o usuário acompanhe o status da solicitação.
 
-- **Como um usuário**, eu quero realizar o pagamento online da reserva de uma sala, para que minha reserva seja confirmada e eu possa utilizar o espaço.
+- **Como um usuário logado**, eu quero editar minhas informações pessoais e gerenciar minhas notificações, **para que** meus dados estejam sempre atualizados e eu receba informações relevantes.
+    
+    **Requisitos**:
+    
+    - O sistema deve permitir que o usuário edite seus dados pessoais, como nome, telefone, e-mail e senha.
+    - O sistema deve permitir que o usuário configure preferências de notificação (e-mail, SMS, push notifications).
+    - O sistema deve permitir que o usuário visualize seu histórico de pagamentos e faturas.
 
-### **Acesso à Sala**
+- **Como um usuário locador**, eu quero cadastrar minhas salas na plataforma com todos os detalhes e documentação necessária, **para que** eu possa disponibilizá-las para aluguel e gerenciar as reservas.
+    
+    **Requisitos**:
+    
+    - O sistema deve permitir que o locador insira informações detalhadas sobre a sala (nome, tipo, localização, capacidade, descrição).
+    - O sistema deve permitir o upload de fotos da sala.
+    - O sistema deve permitir o upload de documentos de posse ou autorização de aluguel.
+    - O sistema deve verificar e aprovar os documentos do locador antes da sala ser disponibilizada.
 
-- **Como um usuário com reserva confirmada**, eu quero acessar a sala no horário reservado utilizando QR code ou biometria, para que eu possa usar o espaço de forma segura e eficiente.
+- **Como um usuário locador**, eu quero definir a disponibilidade das minhas salas e visualizar as reservas feitas, **para que** eu possa gerenciar os horários em que elas estão livres ou ocupadas.
+    
+    **Requisitos**:
+    
+    - O sistema deve permitir que o locador defina a disponibilidade das salas em um calendário.
+    - O sistema deve permitir que o locador visualize um painel com todas as reservas, incluindo detalhes como nome do profissional, horário e status de pagamento.
+    - O locador deve poder bloquear ou liberar horários específicos para manutenção ou uso pessoal.
+    - O sistema deve notificar o locador quando uma nova reserva for feita.
 
+- **Como um usuário locador**, eu quero configurar o preço por hora ou dia para as salas, **para que** eu possa ajustar o valor de acordo com a demanda e os custos de manutenção.
+    
+    **Requisitos**:
+    
+    - O sistema deve permitir que o locador defina o preço por hora, dia ou período personalizado para cada sala.
+    - O sistema deve permitir a aplicação de tarifas diferenciadas por períodos de maior ou menor demanda.
+    - O sistema deve gerar relatórios financeiros com base nas reservas e nas tarifas aplicadas.
 
-### **Gerenciamento de Reservas**
+- **Como um usuário locador**, eu quero receber o pagamento pelas reservas feitas nas minhas salas de forma segura e transparente, **para que** eu possa acompanhar meus ganhos e despesas.
+    
+    **Requisitos**:
+    
+    - O sistema deve processar e transferir automaticamente o pagamento para a conta do locador após a conclusão da reserva.
+    - O sistema deve gerar relatórios financeiros detalhados, incluindo os valores recebidos e as taxas aplicadas pela plataforma.
+    - O locador deve receber uma notificação sempre que um pagamento for processado.
 
-- **Como um usuário**, eu quero visualizar, alterar ou cancelar minhas reservas, para que eu possa gerenciar meu uso das salas de acordo com minhas necessidades.
-
-### **Avaliação da Sala**
-
-- **Como um usuário**, eu quero avaliar a sala após usá-la, para que eu possa compartilhar minha experiência e ajudar outros usuários a fazerem escolhas informadas.
-
-### **Solicitação de Limpeza ou Manutenção**
-
-- **Como um usuário**, eu quero solicitar serviços de manutenção ou limpeza após usar a sala, para que o espaço seja mantido em boas condições para o próximo usuário.
-
-### **Perfil do Usuário**
-
-- **Como um usuário**, eu quero editar minhas informações pessoais e gerenciar minhas notificações, para que meus dados estejam sempre atualizados e eu receba informações relevantes.
-
-### **Cadastro de Salas**
-
-- **Como um locador**, eu quero cadastrar minhas salas na plataforma com todos os detalhes e documentação necessária, **para que** eu possa disponibilizá-las para aluguel e gerenciar as reservas.
-
-### **Gerenciamento de Reservas e Disponibilidade**
-
-- **Como um locador**, eu quero definir a disponibilidade das minhas salas e visualizar as reservas feitas, **para que** eu possa gerenciar os horários em que elas estão livres ou ocupadas.
-
-### *Gerenciamento de Preços e Tarifas**
-
-- **Como um locador**, eu quero configurar o preço por hora ou dia para as salas, **para que** eu possa ajustar o valor de acordo com a demanda e os custos de manutenção.
-
-### **Pagamento e Faturamento**
-
-- **Como um locador**, eu quero receber o pagamento pelas reservas feitas nas minhas salas de forma segura e transparente, **para que** eu possa acompanhar meus ganhos e despesas.
-
-### **Avaliações e Feedback**
-
-- **Como um locador**, eu quero receber feedback dos profissionais que utilizaram minhas salas, **para que** eu possa melhorar a experiência e garantir um bom serviço.
+- **Como um usuário locador**, eu quero receber feedback dos profissionais que utilizaram minhas salas, **para que** eu possa melhorar a experiência e garantir um bom serviço.
+    
+    **Requisitos**:
+    
+    - O sistema deve permitir que o locador visualize as avaliações e comentários dos usuários após cada reserva.
+    - O sistema deve enviar um resumo mensal de feedbacks para que o locador possa acompanhar a satisfação dos profissionais.
+    - O locador deve poder responder aos comentários ou contestar avaliações, se necessário.
 
 ### **Manutenção e Limpeza das Salas**
 
-- **Como um locador**, eu quero gerenciar as solicitações de manutenção ou limpeza feitas pelos profissionais que utilizam minhas salas, **para que** eu possa garantir que elas estejam sempre em boas condições.
+- **Como um usuário locador**, eu quero gerenciar as solicitações de manutenção ou limpeza feitas pelos profissionais que utilizam minhas salas, **para que** eu possa garantir que elas estejam sempre em boas condições.
+    
+    **Requisitos**:
+    
+    - O sistema deve permitir que o locador visualize e acompanhe as solicitações de manutenção ou limpeza relacionadas às suas salas.
+    - O locador deve poder marcar horários para manutenção e bloquear a disponibilidade da sala durante esse período.
+    - O sistema deve notificar o locador sobre problemas recorrentes ou críticos que possam afetar a qualidade do espaço.
 
-### **Em resumo, o sistema deve conter:**
+### **Os Requisitos não Funcionais presentes são:**
 **Segurança**:
     - O sistema deve implementar autenticação segura, criptografia de dados e garantir que as transações financeiras sejam realizadas em ambiente seguro.
 
