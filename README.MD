@@ -169,6 +169,8 @@ Dessa forma, escolhemos essa metodologia para desenvolvermos nosso negócio pois
    - A utilização do feedback deve ser feita para melhorar continuamente o serviço.
 
 ## Protótipos das telas:
+O protótipo das telas pode ser visto completo pelo link https://www.figma.com/design/befodt7Ky1r8lM3r6BqnJK/Untitled?node-id=0-1&t=ENKD2YDepCA64rRP-1
+Abaixo, seguem exemplos feitos.
 
 ![Login](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Telas/Login.png)
 
