@@ -351,8 +351,122 @@ Abaixo, seguem exemplos feitos.
 ![Casos de Uso](https://github.com/nullifidianz/engenharia-de-software/blob/main/imgs/Diagramas/Diagrama-Casos-de-Uso.png)
 
 ## Diagrama de Domínio:
-[![](https://mermaid.ink/img/pako:eNqtV9tu2zAM_RVDTxvaFLk2q9-KdgUKrEW37gJs2QMjMYkQWwwkuWhX9JP2Ffux0UmciyO76boAAWTxiJQOeSj7UUhSKGLRaDQGdmC89gnG0bmGsYUUIoXROaV_fhtN0Tey02u8z1wOXOLzv0zAueWK_Dni33wu-uIysLzysZjOfw2t4kgbvzVnKOWwzlttxlsGTEEnQYtDM4GgxWOCIzJhh17PKGhQJLMUjaevkJCth3zex4lWjBkSJQhme-cefOaCtgMJCtgv2Ddvt-YTGmtTmmMvHOUX2HNQ5EpGiwpH2mh7m_NUMjpKtNQe7BWYzKORQGXfd-wa7C0kG2ufipSvU_yBJPDqPVKcLYohLqpimxKOE0d5tG06wcOl4a3yMh7jjvFCpwHL3SKDo4TAB5kPZI51oMd0KtG5cGpp6NDegSQMOmDC5_Zy4iQYicnO9Bg5xx8_nbH6SpaZpfkmziYop5T5Wvpzxl4jL4VOWs0JfJlWJMxAagUKd2MlXBF5VVY5tSgz62hF4o-fW-YZ2ymUO6XdjIwe6mQZONQTqvO7UmZV4DVgod2wQBs6hTGaCieV8l1LdfsUJdhSsjc5B7V5v4ExzDe7R_KThUTjQqv7SSVFT4pWcV5MN4vzZlHJhYMdmTJPxuU7ulRBRS2VsEMmOk_WbE4HGLpAVEOQ09cSVNu2DHnY9ScpP_FiVQU1781dsKdxE5mR88F77QB50Q4Z8xVGYT0b1-T1SP-XVl3ZFPjQjrWRVh46cN5cBWGdcd-EZC8aAsddX2uvTX9xUxqPL6TjGXFUXGinvG2lqxTz3B20utd32g_WlEjxmjYQrYGIGg0eXPOgREcFqtDZM7CNAiyQxavDBjIfbL4EVEBWXakGlwddl0EBnN-X9edct9ZS1BJu1WD-DVaqpU2B1iM3ars-cjVw6VEcihQtv2Ar_gB4zBcNhJ9gigMR81CBnQ7EwDwxDjJPtw9GitjbDA-FpWw8EfEIEsdP2Syv1OUnQAGZgflOtPko4kdxL-LWceeo0-21TnrNTqfZf9fvH4oHETc6J0fN_nG73er3Trr9Vr_7dCh-zT20jjrHzVa33eTpbq_Ta_MKVJpvgavF18v8I-bpLwsY4ok?type=png)](https://mermaid.live/edit#pako:eNqtV9tu2zAM_RVDTxvaFLk2q9-KdgUKrEW37gJs2QMjMYkQWwwkuWhX9JP2Ffux0UmciyO76boAAWTxiJQOeSj7UUhSKGLRaDQGdmC89gnG0bmGsYUUIoXROaV_fhtN0Tey02u8z1wOXOLzv0zAueWK_Dni33wu-uIysLzysZjOfw2t4kgbvzVnKOWwzlttxlsGTEEnQYtDM4GgxWOCIzJhh17PKGhQJLMUjaevkJCth3zex4lWjBkSJQhme-cefOaCtgMJCtgv2Ddvt-YTGmtTmmMvHOUX2HNQ5EpGiwpH2mh7m_NUMjpKtNQe7BWYzKORQGXfd-wa7C0kG2ufipSvU_yBJPDqPVKcLYohLqpimxKOE0d5tG06wcOl4a3yMh7jjvFCpwHL3SKDo4TAB5kPZI51oMd0KtG5cGpp6NDegSQMOmDC5_Zy4iQYicnO9Bg5xx8_nbH6SpaZpfkmziYop5T5Wvpzxl4jL4VOWs0JfJlWJMxAagUKd2MlXBF5VVY5tSgz62hF4o-fW-YZ2ymUO6XdjIwe6mQZONQTqvO7UmZV4DVgod2wQBs6hTGaCieV8l1LdfsUJdhSsjc5B7V5v4ExzDe7R_KThUTjQqv7SSVFT4pWcV5MN4vzZlHJhYMdmTJPxuU7ulRBRS2VsEMmOk_WbE4HGLpAVEOQ09cSVNu2DHnY9ScpP_FiVQU1781dsKdxE5mR88F77QB50Q4Z8xVGYT0b1-T1SP-XVl3ZFPjQjrWRVh46cN5cBWGdcd-EZC8aAsddX2uvTX9xUxqPL6TjGXFUXGinvG2lqxTz3B20utd32g_WlEjxmjYQrYGIGg0eXPOgREcFqtDZM7CNAiyQxavDBjIfbL4EVEBWXakGlwddl0EBnN-X9edct9ZS1BJu1WD-DVaqpU2B1iM3ars-cjVw6VEcihQtv2Ar_gB4zBcNhJ9gigMR81CBnQ7EwDwxDjJPtw9GitjbDA-FpWw8EfEIEsdP2Syv1OUnQAGZgflOtPko4kdxL-LWceeo0-21TnrNTqfZf9fvH4oHETc6J0fN_nG73er3Trr9Vr_7dCh-zT20jjrHzVa33eTpbq_Ta_MKVJpvgavF18v8I-bpLwsY4ok)
+<[![](https://mermaid.ink/img/pako:eNqtV9tu2zAM_RVDTxvaFLk2q9-KdgUKrEW37gJs2QMjMYkQWwwkuWhX9JP2Ffux0UmciyO76boAAWTxiJQOeSj7UUhSKGLRaDQGdmC89gnG0bmGsYUUIoXROaV_fhtN0Tey02u8z1wOXOLzv0zAueWK_Dni33wu-uIysLzysZjOfw2t4kgbvzVnKOWwzlttxlsGTEEnQYtDM4GgxWOCIzJhh17PKGhQJLMUjaevkJCth3zex4lWjBkSJQhme-cefOaCtgMJCtgv2Ddvt-YTGmtTmmMvHOUX2HNQ5EpGiwpH2mh7m_NUMjpKtNQe7BWYzKORQGXfd-wa7C0kG2ufipSvU_yBJPDqPVKcLYohLqpimxKOE0d5tG06wcOl4a3yMh7jjvFCpwHL3SKDo4TAB5kPZI51oMd0KtG5cGpp6NDegSQMOmDC5_Zy4iQYicnO9Bg5xx8_nbH6SpaZpfkmziYop5T5Wvpzxl4jL4VOWs0JfJlWJMxAagUKd2MlXBF5VVY5tSgz62hF4o-fW-YZ2ymUO6XdjIwe6mQZONQTqvO7UmZV4DVgod2wQBs6hTGaCieV8l1LdfsUJdhSsjc5B7V5v4ExzDe7R_KThUTjQqv7SSVFT4pWcV5MN4vzZlHJhYMdmTJPxuU7ulRBRS2VsEMmOk_WbE4HGLpAVEOQ09cSVNu2DHnY9ScpP_FiVQU1781dsKdxE5mR88F77QB50Q4Z8xVGYT0b1-T1SP-XVl3ZFPjQjrWRVh46cN5cBWGdcd-EZC8aAsddX2uvTX9xUxqPL6TjGXFUXGinvG2lqxTz3B20utd32g_WlEjxmjYQrYGIGg0eXPOgREcFqtDZM7CNAiyQxavDBjIfbL4EVEBWXakGlwddl0EBnN-X9edct9ZS1BJu1WD-DVaqpU2B1iM3ars-cjVw6VEcihQtv2Ar_gB4zBcNhJ9gigMR81CBnQ7EwDwxDjJPtw9GitjbDA-FpWw8EfEIEsdP2Syv1OUnQAGZgflOtPko4kdxL-LWceeo0-21TnrNTqfZf9fvH4oHETc6J0fN_nG73er3Trr9Vr_7dCh-zT20jjrHzVa33eTpbq_Ta_MKVJpvgavF18v8I-bpLwsY4ok?type=png)](https://mermaid.live/edit#pako:eNqtV9tu2zAM_RVDTxvaFLk2q9-KdgUKrEW37gJs2QMjMYkQWwwkuWhX9JP2Ffux0UmciyO76boAAWTxiJQOeSj7UUhSKGLRaDQGdmC89gnG0bmGsYUUIoXROaV_fhtN0Tey02u8z1wOXOLzv0zAueWK_Dni33wu-uIysLzysZjOfw2t4kgbvzVnKOWwzlttxlsGTEEnQYtDM4GgxWOCIzJhh17PKGhQJLMUjaevkJCth3zex4lWjBkSJQhme-cefOaCtgMJCtgv2Ddvt-YTGmtTmmMvHOUX2HNQ5EpGiwpH2mh7m_NUMjpKtNQe7BWYzKORQGXfd-wa7C0kG2ufipSvU_yBJPDqPVKcLYohLqpimxKOE0d5tG06wcOl4a3yMh7jjvFCpwHL3SKDo4TAB5kPZI51oMd0KtG5cGpp6NDegSQMOmDC5_Zy4iQYicnO9Bg5xx8_nbH6SpaZpfkmziYop5T5Wvpzxl4jL4VOWs0JfJlWJMxAagUKd2MlXBF5VVY5tSgz62hF4o-fW-YZ2ymUO6XdjIwe6mQZONQTqvO7UmZV4DVgod2wQBs6hTGaCieV8l1LdfsUJdhSsjc5B7V5v4ExzDe7R_KThUTjQqv7SSVFT4pWcV5MN4vzZlHJhYMdmTJPxuU7ulRBRS2VsEMmOk_WbE4HGLpAVEOQ09cSVNu2DHnY9ScpP_FiVQU1781dsKdxE5mR88F77QB50Q4Z8xVGYT0b1-T1SP-XVl3ZFPjQjrWRVh46cN5cBWGdcd-EZC8aAsddX2uvTX9xUxqPL6TjGXFUXGinvG2lqxTz3B20utd32g_WlEjxmjYQrYGIGg0eXPOgREcFqtDZM7CNAiyQxavDBjIfbL4EVEBWXakGlwddl0EBnN-X9edct9ZS1BJu1WD-DVaqpU2B1iM3ars-cjVw6VEcihQtv2Ar_gB4zBcNhJ9gigMR81CBnQ7EwDwxDjJPtw9GitjbDA-FpWw8EfEIEsdP2Syv1OUnQAGZgflOtPko4kdxL-LWceeo0-21TnrNTqfZf9fvH4oHETc6J0fN_nG73er3Trr9Vr_7dCh-zT20jjrHzVa33eTpbq_Ta_MKVJpvgavF18v8I-bpLwsY4ok)>
+classDiagram
+    class Usuario {
+        -id: int
+        -nome: string
+        -email: string
+        -senha: string
+        -telefone: string
+        -tipo: string
+        -documentoValor: string
+        -documentoTipo: string
+        -documentoValido: boolean
+        -status: boolean
+        +cadastrar()
+        +login()
+        +atualizarDados()
+        +redefinirSenha()
+        +solicitarManutencao()
+        +avaliarSala()
+    }
 
+    class Locacao {
+        -id: int
+        -usuario: Usuario
+        -sala: Sala
+        -dataInicio: date
+        -dataFim: date
+        -valor: float
+        -status: string
+        -codigoAcesso: string
+        -observacoes: string
+        +reservar()
+        +cancelar()
+        +gerarQRCode()
+        +processoCheckout()
+    }
+
+    class Sala {
+        -id: int
+        -nome: string
+        -descricao: string
+        -tipo: string
+        -capacidade: int
+        -localizacao: string
+        -recursos: string[]
+        -preco: float
+        -disponibilidade: string
+        -status: string
+        -documentos: string[]
+        -documentosValidos: boolean
+        -imagens: string[]
+        +cadastrar()
+        +atualizarDisponibilidade()
+        +definirPreco()
+    }
+
+    class Pagamento {
+        -id: int
+        -locacao: Locacao
+        -valor: float
+        -metodoPagamento: string
+        -status: string
+        -dataProcessamento: date
+        -transacaoId: string
+        +processar()
+        +estornar()
+    }
+
+    class Feedback {
+        -id: int
+        -locacao: Locacao
+        -usuario: Usuario
+        -nota: int
+        -comentario: string
+        -dataEnvio: date
+        -resposta: string
+        +enviar()
+        +responder()
+    }
+
+    class Notificacao {
+        -id: int
+        -usuario: Usuario
+        -tipo: string
+        -mensagem: string
+        -data: date
+        -lida: boolean
+        -canal: string
+        +enviar()
+    }
+
+    class Manutencao {
+        -id: int
+        -locacao: Locacao
+        -solicitante: Usuario
+        -tipo: string
+        -status: string
+        -data: date
+        -dataAtendimento: date
+        -observacoes: string
+        +solicitar()
+        +atender()
+    }
+
+    Usuario "1" -- "N" Locacao
+    Usuario "1" -- "N" Feedback
+    Usuario "1" -- "N" Notificacao
+    Usuario "1" -- "N" Manutencao
+    Locacao "1" -- "1" Sala
+    Locacao "1" -- "1" Pagamento
+    Locacao "1" -- "N" Manutencao
+    Sala "1" -- "N" Locacao
+    Feedback "1" -- "1" Locacao
+    Notificacao "1" -- "1" Usuario
+    Manutencao "1" -- "1" Locacao
+    
 ## Descrição das Classes de Domínio:
 
 | Classe | Descrição |
