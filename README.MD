@@ -460,7 +460,43 @@ Integrará dados dos demais serviços para análises estratégicas.
 
 
 
-Essa abordagem de microsserviços permitirá uma melhor escalabilidade do sistema, a possibilidade de atualizar e implantar serviços de forma independente, além de uma arquitetura mais resiliente e tolerante a falhas.
-Os serviços se comunicarão por meio de uma arquitetura baseada em eventos, utilizando um barramento de mensagens (message bus) como RabbitMQ ou Apache Kafka. Essa abordagem promoverá a desacoplagem entre os serviços e permitirá uma integração assíncrona, aumentando a eficiência e a disponibilidade do sistema.
-Adicionalmente, a infraestrutura será hospedada em uma plataforma de nuvem, como AWS ou Azure, para aproveitar os benefícios de escalabilidade, alta disponibilidade e serviços gerenciados, como banco de dados, armazenamento e serviços de mensageria. Porém analisando sempre soluções propostas a partir do crescimento e adesão.
+### De maneira detalhada, utilizaremos:
+
+1. **Linguagem e Frameworks**:
+   - Utilizaremos Java como linguagem de programação para a construção dos microsserviços.
+    - Como framework principal, adotaremos o Spring Boot, que fornece recursos robustos para desenvolvimento de aplicações baseadas em microsserviços.
+   - Para o front-end, adotaremos o React.js com o framework Next.js, que fornece recursos de renderização do lado do servidor (SSR) e otimização para SEO.
+
+2. **Containers e Orquestração**:
+   - Os microsserviços serão empacotados em contêineres Docker para garantir a portabilidade e a consistência do ambiente de execução.
+   - A orquestração dos contêineres será realizada pelo Kubernetes, que oferece recursos avançados de escalabilidade, balanceamento de carga e gerenciamento de ciclo de vida.
+
+3. **Banco de Dados**:
+   - Utilizaremos o MongoDB como banco de dados NoSQL para armazenar os dados semi-estruturados do sistema, como informações de usuários, salas, reservas e feedbacks.
+   - Para os dados financeiros e transações, adotaremos o PostgreSQL como banco de dados relacional, oferecendo integridade e consistência dos dados.
+
+4. **Mensageria e Integração**:
+   - O barramento de mensagens será implementado usando o Apache Kafka, que fornece alta escalabilidade, tolerância a falhas e processamento de eventos em tempo real.
+   - Essa abordagem permitirá a comunicação assíncrona entre os microsserviços, facilitando a integração e o desacoplamento.
+
+5. **API Gateway**:
+   - Implementaremos um API Gateway usando o NGINX, que atuará como ponto de entrada único para todas as requisições do sistema.
+   - O API Gateway será responsável por roteamento, balanceamento de carga, autenticação e autorização das chamadas entre os microsserviços e o front-end.
+
+6. **Segurança**:
+   - Utilizaremos o Keycloak como provedor de identidade, responsável pela autenticação e autorização dos usuários.
+   - O Keycloak integrará com os microsserviços por meio de tokens JWT, garantindo a segurança das comunicações.
+
+7. **Monitoramento e Observabilidade**:
+   - Implementaremos um conjunto de ferramentas de monitoramento, incluindo Prometheus para métricas, Grafana para painéis de monitoramento e Elasticsearch/Kibana para logs.
+   - Essa stack de observabilidade nos permitirá acompanhar o desempenho, a saúde e a integridade dos microsserviços em tempo real.
+
+8. **Implantação e CI/CD**:
+   - Adotaremos uma abordagem de Entrega Contínua (CI/CD) usando ferramentas como GitLab CI/CD ou GitHub Actions.
+   - Isso nos permitirá automatizar o processo de build, teste e implantação dos microsserviços, garantindo a entrega rápida e segura de novas funcionalidades.
+
+9. **Infraestrutura em Nuvem**:
+   - Hospedamos toda a infraestrutura do sistema na nuvem da AWS, aproveitando os serviços gerenciados, como EC2 para execução dos contêineres, Amazon EKS para orquestração do Kubernetes, Amazon RDS para os bancos de dados, Amazon MSK para o Apache Kafka, entre outros.
+   - Essa estratégia nos permite escalar rapidamente, reduzir a sobrecarga de gerenciamento de infraestrutura e aproveitar os recursos de alta disponibilidade e resiliência oferecidos pela AWS.
+
 
