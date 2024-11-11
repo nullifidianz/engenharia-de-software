@@ -364,3 +364,103 @@ Abaixo, seguem exemplos feitos.
 | Feedback | Esta classe armazena as informações respectivas às avaliações feitas pelos usuários sobre as locações realizadas, incluindo notas, comentários e possíveis respostas, permitindo o monitoramento da satisfação. |
 | Notificacao | Esta classe armazena as informações respectivas às comunicações enviadas aos usuários, gerenciando tipos de mensagens, status de leitura e canais de envio para manter os usuários informados. |
 | Manutencao | Esta classe armazena as informações respectivas às solicitações de manutenção das salas, controlando tipos de problemas, status de atendimento e acompanhamento das resoluções necessárias. |
+
+## Projeto de Arquitetura:
+
+### Casos de Uso (interações do usuário):
+
+Cadastro e Autenticação de Usuários
+Gerenciamento de Salas (Cadastro, Disponibilidade, Precificação)
+Reserva de Salas (Pesquisa, Seleção, Pagamento)
+Acesso às Salas (QR Code, Biometria)
+Gerenciamento de Reservas (Visualização, Alteração, Cancelamento)
+Avaliação de Salas
+Solicitação de Manutenção e Limpeza
+Configuração de Perfil e Notificações
+Relatórios Financeiros e de Desempenho (Locatários)
+
+
+### Protótipos (telas do sistema):
+
+- Tela de Login/Cadastro
+- Tela de Busca e Seleção de Salas
+- Tela de Detalhes da Sala
+- Tela de Reserva e Checkout
+- Tela de Acesso à Sala (QR Code/Biometria)
+- Tela de Gerenciamento de Reservas
+- Tela de Avaliação da Sala
+- Tela de Solicitação de Manutenção
+- Tela de Configurações de Perfil
+- Painel de Controle (Locatários)
+
+
+### Modelo de Domínio (classes do sistema):
+
+- Usuário
+- Sala
+- Locação
+- Pagamento
+- Feedback
+- Notificação
+- Manutenção
+- Documento
+
+
+
+### Arquitetura do Sistema:
+A arquitetura do sistema será baseada em uma abordagem de microsserviços, onde cada uma das principais funcionalidades será implementada como um serviço independente. Isso permitirá maior escalabilidade, flexibilidade e autonomia no desenvolvimento e manutenção do sistema.
+Os principais serviços serão:
+
+### Serviço de Autenticação e Perfil do Usuário:
+
+Responsável pelo cadastro, autenticação e gerenciamento de perfil dos usuários.
+Integrará com serviços de verificação de documentos.
+
+
+### Serviço de Gerenciamento de Salas:
+
+Responsável pelo cadastro, atualização e controle das informações das salas.
+Incluirá a gestão de disponibilidade, precificação e documentação.
+
+
+### Serviço de Reservas:
+
+Responsável pela criação, modificação e cancelamento de reservas.
+Integrará com o serviço de pagamentos e liberação de acesso.
+
+
+### Serviço de Pagamentos:
+
+Responsável pelo processamento seguro de transações financeiras.
+Integrará com provedores de pagamento externos.
+
+
+### Serviço de Feedbacks e Avaliações:
+
+Responsável pela coleta, armazenamento e exibição de feedbacks dos usuários.
+Permitirá a resposta dos locatários aos comentários.
+
+
+### Serviço de Notificações:
+
+Responsável pelo envio de notificações aos usuários (e-mail, SMS, push).
+Integrará com serviços de comunicação externos.
+
+
+### Serviço de Manutenção:
+
+Responsável pelo registro e acompanhamento de solicitações de manutenção.
+Permitirá a programação de intervenções nos imóveis.
+
+
+### Serviço de Relatórios e Business Intelligence:
+
+Responsável pela geração de relatórios financeiros e de desempenho.
+Integrará dados dos demais serviços para análises estratégicas.
+
+
+
+Essa abordagem de microsserviços permitirá uma melhor escalabilidade do sistema, a possibilidade de atualizar e implantar serviços de forma independente, além de uma arquitetura mais resiliente e tolerante a falhas.
+Os serviços se comunicarão por meio de uma arquitetura baseada em eventos, utilizando um barramento de mensagens (message bus) como RabbitMQ ou Apache Kafka. Essa abordagem promoverá a desacoplagem entre os serviços e permitirá uma integração assíncrona, aumentando a eficiência e a disponibilidade do sistema.
+Adicionalmente, a infraestrutura será hospedada em uma plataforma de nuvem, como AWS ou Azure, para aproveitar os benefícios de escalabilidade, alta disponibilidade e serviços gerenciados, como banco de dados, armazenamento e serviços de mensageria. Porém analisando sempre soluções propostas a partir do crescimento e adesão.
+
