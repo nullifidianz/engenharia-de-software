@@ -489,7 +489,7 @@ Integrará dados dos demais serviços para análises estratégicas.
 
 7. **Monitoramento e Observabilidade**:
    - Implementaremos um conjunto de ferramentas de monitoramento, incluindo Prometheus para métricas, Grafana para painéis de monitoramento e Elasticsearch/Kibana para logs.
-   - Essa stack de observabilidade nos permitirá acompanhar o desempenho, a saúde e a integridade dos microsserviços em tempo real.
+   - Adicionalmente, utilizaremos o Spring Boot Actuator para expor métricas e endpoints de monitoramento dos microsserviços.
 
 8. **Implantação e CI/CD**:
    - Adotaremos uma abordagem de Entrega Contínua (CI/CD) usando ferramentas como GitLab CI/CD ou GitHub Actions.
